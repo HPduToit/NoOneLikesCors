@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "user-management-service"
+version = "0.1.0"
+description = "A user management service for managing user accounts for the RTE portal."
+authors = ["Henru du Toit <henru@brightedge.co.za>", "Dirk du Toit <dirk@brightedge.co.za>"]
+readme = "README.md"
+packages = [{include = "ums", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SQLAlchemy = "^2.0"
+bcrypt = "^4.0.1"
+pymysql = "^1.0.3"
+cryptography = "^41.0"
+fastapi = "^0.100.0"
+uvicorn = "^0.22.0"
+colorlog = "^6.7.0"
+python-jose = "^3.3.0"
+python-multipart = "^0.0.6"
+pydantic = {extras = ["email"], version = "^2.0"}
+pydantic-settings = "^2.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

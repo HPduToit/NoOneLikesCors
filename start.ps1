@@ -1,0 +1,1 @@
+uvicorn src.ums.main:app --reload

@@ -1,0 +1,8 @@
+services:
+  db:
+    image: mysql:8.0.34
+    environment:
+      MYSQL_DATABASE: UMSDB
+      MYSQL_ROOT_PASSWORD: user
+    ports:
+      - "50011:3306"
