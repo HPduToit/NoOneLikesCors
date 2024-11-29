@@ -1,4 +1,3 @@
-/ums/
 __pycache__
 *.log
 poetry.lock
