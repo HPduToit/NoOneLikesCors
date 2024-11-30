@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "user-management-service"
+name = "NoOneLikesCors"
 version = "0.1.0"
 description = "A user management service for managing user accounts for the RTE portal."
 authors = ["Henru du Toit <henru@brightedge.co.za>", "Dirk du Toit <dirk@brightedge.co.za>"]

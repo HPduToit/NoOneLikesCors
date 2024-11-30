@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from ums.logger import log_root, log_ume
 
 db_name = "UMSDB"
-DATABASE_URL = f"mysql+pymysql://root:user@localhost:50011/{db_name}"
+DATABASE_URL = f"mysql+pymysql://root:user@localhost:50010/{db_name}"
 
 # Connect to the MySQL server without specifying a database. For existance check.
 engine = create_engine(DATABASE_URL.rsplit("/", 1)[0])

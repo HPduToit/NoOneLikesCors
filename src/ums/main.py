@@ -6,8 +6,7 @@ from ums.database import engine
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
 from ums.settings import settings
-from ums.database import get_db 
-
+from ums.database import SessionLocal
 
 
 app = FastAPI()
@@ -19,7 +18,7 @@ app = FastAPI()
 # fmt: off
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=['*'],      # Allows requests from specified origins
+    allow_origins=['http://localhost:4200'],      # Allows requests from specified origins
     # Set to True if your frontend needs to send cookies or authentication headers.
     allow_credentials=True,
     allow_methods=["*"],        # Allows all HTTP methods
