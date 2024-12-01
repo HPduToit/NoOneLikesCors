@@ -9,7 +9,6 @@ from ums.settings import settings
 from ums.database import SessionLocal
 
 
-
 app = FastAPI()
 
 # Shit that's allowed to connect to my API
