@@ -6,10 +6,10 @@ class FileSettings(BaseSettings):
 
 
 class EndpointSettings(BaseSettings):
-    # login_ep: str = "/login"
-    # register_ep: str = "/register"
-    # user_me_ep: str = "/users/me"
-    # logout_ep: str = "/logout"
+    login_ep: str = "/login"
+    register_ep: str = "/register"
+    user_me_ep: str = "/users/me"
+    logout_ep: str = "/logout"
 
     # Test enpoints
     ping_ep: str = "/ping"

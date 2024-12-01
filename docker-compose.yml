@@ -5,4 +5,4 @@ services:
       MYSQL_DATABASE: UMSDB
       MYSQL_ROOT_PASSWORD: user
     ports:
-      - "50011:3306"
+      - "50010:3306"

@@ -1,1 +1,1 @@
-. ./ums/Scripts/Activate.ps1
+. ./nolc/Scripts/Activate.ps1
